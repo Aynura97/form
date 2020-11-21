@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #81cdd1;
+}
+.en {
+    width: 500px;
+    margin: auto;
+   
+}
+.esas {
+    width: 600px;
+    height: 500px;
+    background-color: #fc6539;
+    margin: auto;
+    margin-top: 130px;
+    
+}
+.en h1 {
+    font: 800 24px/45px 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.ust {
+    width: 600px;
+    background-color: #fc6539;
+    padding-bottom: 50px;
+    border-radius: 5px 5px 0 0;
+   
+}
+.ust input {
+    width: 100%;
+    height: 70px;
+    background-color: #b93b23;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding-left: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font: 400 24px/45px 'Open Sans', sans-serif;
+    color: #fff;
+
+}
+.ust input::placeholder {
+    color: #fff;
+}
+.alt {
+    height: 170px;
+    background-color: #b93b23;
+    padding-top: 50px;
+    border-radius: 0 0 5px 5px;
+}
+.alt a {
+    text-decoration: none;
+    font: 400 24px/45px 'Open Sans', sans-serif;
+    color: #fff;
+    margin-right: 40px;
+}
+.alt button {
+    width: 250px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font: 400 24px/45px 'Open Sans', sans-serif;
+    color: #ba3c24;
+    cursor: pointer;
+}
